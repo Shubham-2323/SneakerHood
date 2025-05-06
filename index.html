@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Hood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans&family=Oswald:wght@300&family=Poppins:wght@300&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="main-nav">
+        <div class="nav-logo" onmousedown="this.blur()">
+            <img class='shoe-logo' src="./Assests/logo.png" alt="shoes" />
+        </div>
+        <div class="logo" id="home">
+            Sneaker Hood
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#profile">About</a></li>
+                <li><a href="#projects">Products</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- toggle nav -->
+
+    <nav id="mobile-nav">
+        <div class="logo">
+            Sneaker Hood
+        </div>
+        <div class="mobile-menu">
+            <div class="mobile-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#profile" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Products</a></li>
+                <li><a href="#reviews" onclick="toggleMenu()">Reviews</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- section -->
+    <section id="profile">
+
+        <div class="pic__container">
+            <img class="image" src="Assests/shoe22.png" alt="">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p">Hello, I'm</p>
+            <h1 class="title">Sneaker Hood</h1><br>
+            <p class="section-text-p2">India's 1st Online Shopping Site</p><br>
+            <div class="btn-container">
+                <button class=" btn btn-color-1" onclick="window.open('')">
+                    BUY NOW
+                </button>
+
+                <button class=" btn btn-color-2">VISIT SITE</button>
+            </div>
+            <div class="social-container">
+                <img class="icon" src="./Assests/linkedin.png" alt=""
+                    onclick="location.href='https://www.linkedin.com/in/shubham-chaudhary-104398247/'">
+                <img class="icon" src="./Assests/amazon.png" alt=""
+                    onclick="location.href='https://www.amazon.in/Sneakers-Men/b?ie=UTF8&node=1983577031'">
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- best sellers-->
+
+    <div class='view-port'>
+        <h1 class='hh'>
+            BEST SELLERS
+        </h1>
+        <div class='box'>
+
+            <div class='BS1'>
+                <div class="image-1">
+                    <img class='tommy' src="./Assests/tommy.png" alt="" />
+                </div>
+                <div class='box-text'>
+                    <h2 class='bt-1'>TOMMY HILFIGER</h2>
+                </div>
+            </div>
+
+            <div class='BS2'>
+                <div class="image-2">
+                    <img class='calvin' src="./Assests/calvin.png" alt="" />
+                </div>
+                <div class='box-text'>
+                    <h2 class='bt-2'>CALVIN KLEIN</h2>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <br><br>
+
+    <!-- projects Section -->
+    <section id="projects">
+        <p class="section-text-p">Check our Latest</p>
+        <h1 class="title">Products</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+
+                        <img src="./Assests/zara.png" alt="Experience icon" class="project-image" />
+                        <h2 class="experience-title project-title">
+                            ZARA
+                        </h2>
+                    </div>
+                    <div class="btn-container">
+                        <button class=" btn btn-color-2 project-btn" onclick="">
+                            BUY NOW
+                        </button>
+
+                        <button class=" btn btn-color-2" onclick="location.href=''">ADD CART</button>
+                    </div>
+
+                </div>
+
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+
+                        <img src="./Assests/kswiss.png" alt="Experience icon" class="project-image" />
+                        <h2 class="experience-title project-title">
+                            K-SWISS
+                        </h2>
+                    </div>
+                    <div class="btn-container">
+                        <button class=" btn btn-color-2 project-btn" onclick="">
+                            BUY NOW
+                        </button>
+
+                        <button class=" btn btn-color-2" onclick="location.href=''">ADD CART</button>
+                    </div>
+
+                </div>
+                <div class="details-container color-container">
+
+                    <div class="article-container">
+
+                        <img src="./Assests/redtape.png" alt="Experience icon" class="project-image" />
+                        <h2 class="experience-title project-title">
+                            RED TAPE
+                        </h2>
+                    </div>
+                    <div class="btn-container">
+                        <button class=" btn btn-color-2 project-btn" onclick="">
+                            BUY NOW
+                        </button>
+
+                        <button class=" btn btn-color-2" onclick="location.href=''">ADD CART</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div><br>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+
+                        <img src="./Assests/nike.png" alt="Experience icon" class="project-image" />
+                        <h2 class="experience-title project-title">
+                            NIKE
+                        </h2>
+                    </div>
+                    <div class="btn-container">
+                        <button class=" btn btn-color-2 project-btn" onclick="">
+                            BUY NOW
+                        </button>
+
+                        <button class=" btn btn-color-2" onclick="location.href=''">ADD CART</button>
+                    </div>
+
+                </div>
+
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+
+                        <img src="./Assests/jordan.png" alt="Experience icon" class="project-image" />
+                        <h2 class="experience-title project-title">
+                            ZORDAN
+                        </h2>
+                    </div>
+                    <div class="btn-container">
+                        <button class=" btn btn-color-2 project-btn" onclick="">
+                            BUY NOW
+                        </button>
+
+                        <button class=" btn btn-color-2" onclick="location.href=''">ADD CART</button>
+                    </div>
+
+                </div>
+                <div class="details-container color-container">
+
+                    <div class="article-container">
+
+                        <img src="./Assests/uspolo.png" alt="Experience icon" class="project-image" />
+                        <h2 class="experience-title project-title">
+                            US-POLO
+                        </h2>
+                    </div>
+                    <div class="btn-container">
+                        <button class=" btn btn-color-2 project-btn" onclick="">
+                            BUY NOW
+                        </button>
+
+                        <button class=" btn btn-color-2" onclick="location.href=''">ADD CART</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <br><br>
+
+
+    <!-- review -->
+
+    <section id="reviews">
+        <p class="section-text-p">Our</p>
+        <h1 class="title">Customer Reviews</h1>
+        <div class="section-container">
+            <div class="pic__container2">
+                <img src="Assests/about-image.jpeg" alt="" class="about-pic">
+            </div>
+            <div class="about-detail-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="Assests/experience.png" alt="" class="icon">
+                        <h3>Quality</h3>
+                        <p>5 Stars Top Rated in market <br>Very Good quality</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="Assests/education.png" alt="" class="icon">
+                        <h3>Affordable</h3>
+                        <p>Sneakers in best price range <br>Pocket Friendly</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Each & everyone in my family is the regular customer of Sneaker Hood since 3+ years but recently
+                        we had a very best experience by buying a slippers for my brother which bought in sep 2024. They
+                        were literally amazing.
+                        <br>
+                        <br>
+                        In March 2025 found that the slipper turned in dual colour which.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- news LETTER -->
+    <div class='newsletter'>
+        <div class='details-d'>
+            <div class="icon">
+                <img class='icon-mail' src="./Assests/mail.png" alt="" />
+            </div>
+            <p class='Signup'>Sign Up for Newsletter</p>
+            <span class='block'>and get flat 20% Discount</span>
+
+        </div>
+        <div class="input-f">
+            <input class='input-d' type="text" placeholder='Your email address' />
+            <div class="button-f">
+                <button class='detail-button'
+                    onclick="location.href='https://accounts.google.com/v3/signin/identifier?ifkv=ASKV5MjkHl_pgWHZX94tcY4KOLI9QqT4LyGErfjArEL-iN15jCyWd8_circsGV5FtJKwaXrRYhtJ&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1256236267%3A1746509715249751'">Sign
+                    Up</button>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br>
+    <!-- FOOTER -->
+    <div class='footer' id="Contact">
+        <div className="footer-sec-1">
+            <div class="f-image">
+                <img class='footer-image' src="Assests/logo.png" alt="" />
+            </div>
+            <div class="sec-1-details">
+                <h1 class='sec-header'>Contact</h1>
+                <div class="para-sec">
+                    <p class='para-tag'>Address: <span class='span-tag'>#1281 Sector-11, Kharar</span></p>
+                    <p class='para-tag'>Phone: <span class='span-tag'>9876823939</span> </p>
+                    <p class='para-tag'>Visiting Hours :<span class='span-tag'>10am to 8pm </span></p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-sec">
+            <div class="about">
+                <h1 class="about-tag">
+                    About
+                </h1>
+                <div class="para-details-sec">
+                    <p class="details-abouts">
+                        About Us
+                    </p>
+                    <p class="details-abouts">
+                        Privacy
+                    </p>
+                    <p class="details-abouts">
+                        Delivery
+                    </p>
+                    <p class="details-abouts">
+                        Terms & Conditions
+                    </p>
+                    <p class="details-abouts">
+                        Contact Us
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sec2">
+            <div class="about">
+                <h1 class="about-tag">
+                    Account
+                </h1>
+                <div class="para-details-sec">
+                    <p class="details-abouts">
+                        Sign In
+                    </p>
+                    <p class="details-abouts">
+                        View cart
+                    </p>
+                    <p class="details-abouts">
+                        My Wishlist
+                    </p>
+                    <p class="details-abouts">
+                        Track order
+                    </p>
+                    <p class="details-abouts">
+                        help
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-sec">
+            <div class="about">
+                <h1 class="about-tag">
+                    Follow Us
+                </h1>
+            </div>
+            <div class="f-icons">
+                <img class='icons-footer' src="Assests/insta.png" alt="" />
+                <img class='icons-footer' src="Assests/fb.png" alt="" />
+                <img class='icons-footer' src="Assests/twitter.png" alt="" />
+                <img class='icons-footer' src="Assests/yt.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class='copyright'>
+        <hr />
+        <div class="copy">
+            Copyright © 2025 ~ Shubham All rights Reserved </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
